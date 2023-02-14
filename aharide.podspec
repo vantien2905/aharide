@@ -38,7 +38,7 @@ SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 LICENSE
   }
   s.author                = { 'iOS Dev Team' => 'tiendv@ahamove.com' }
-  s.source                = { :http => 'https://github.com/vantien2905/aharide/raw/main/aharide_dependence.zip' }
+  s.source                = { :http => 'https://github.com/vantien2905/aharide/raw/main/aharide.zip' }
   s.documentation_url     = 'https://flutter.dev/docs'
   s.platform              = :ios, '11.0'
   # s.pod_target_xcconfig   = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }

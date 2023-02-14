@@ -46,7 +46,7 @@ LICENSE
 
   s.subspec 'App' do |as|
     as.platform              = :ios, '11.0'
-    as.vendored_frameworks   = 'aharide/App.xcframework'
+    as.vendored_frameworks   = 'App.xcframework'
   end
 
   s.subspec 'contacts_service' do |cs|

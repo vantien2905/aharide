@@ -38,69 +38,20 @@ SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 LICENSE
   }
   s.author                = { 'TienDV' => 'vantien2905@gmail.com' }
-  s.source                = { :http => "https://github.com/vantien2905/aharide/raw/main/aharide.zip?access_token=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" }
+  s.source                = { :http => "https://github.com/vantien2905/aharide/raw/main/aharide_vfe34_4.zip?access_token=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" }
 
   s.documentation_url     = 'https://flutter.dev/docs'
   s.platform              = :ios, '11.0'
 
-  s.subspec 'App' do |as|
-    as.platform              = :ios, '11.0'
-    as.vendored_frameworks   = 'App.xcframework'
-  end
-
-  s.subspec 'contacts_service' do |cs|
-    cs.platform              = :ios, '11.0'
-    cs.vendored_frameworks   = 'contacts_service.xcframework'
-  end
-
-  s.subspec 'FlutterPluginRegistrant' do |fs|
-    fs.platform              = :ios, '11.0'
-    fs.vendored_libraries    = 'FlutterPluginRegistrant.xcframework'
-  end
-
-  s.subspec 'path_provider_ios' do |ps|
-    ps.platform              = :ios, '11.0'
-    ps.vendored_frameworks   = 'path_provider_ios.xcframework'
-  end
-
-  s.subspec 'url_launcher_ios' do |us|
-    us.platform              = :ios, '11.0'
-    us.vendored_frameworks   = 'url_launcher_ios.xcframework'
-  end
-
-  s.subspec 'webview_flutter_wkwebview' do |ws|
-    ws.platform              = :ios, '11.0'
-    ws.vendored_frameworks   = 'webview_flutter_wkwebview.xcframework'
-  end
-
-  s.subspec 'google_maps_flutter_ios' do |gos|
-    gos.platform              = :ios, '11.0'
-    gos.vendored_libraries   = 'google_maps_flutter_ios.xcframework'
-  end
-
-  s.subspec 'location' do |los|
-    los.platform              = :ios, '11.0'
-    los.vendored_frameworks   = 'location.xcframework'
-  end
-
-  s.subspec 'permission_handler_apple' do |pes|
-    pes.platform              = :ios, '11.0'
-    pes.vendored_libraries   = 'permission_handler_apple.xcframework'
-  end
-
-  s.subspec 'shared_preferences_ios' do |shs|
-    shs.platform              = :ios, '11.0'
-    shs.vendored_frameworks   = 'shared_preferences_ios.xcframework'
-  end
-
-  s.subspec 'Toast' do |tos|
-    tos.platform              = :ios, '11.0'
-    tos.vendored_frameworks   = 'Toast.xcframework'
-  end
-
-  s.subspec 'fluttertoast' do |fls|
-    fls.platform              = :ios, '11.0'
-    fls.vendored_libraries   = 'fluttertoast.xcframework'
-  end
+  s.vendored_frameworks   = ['webview_flutter_wkwebview.xcframework', 'absl.xcframework', 'App.xcframework', 
+  'cloud_firestore.xcframework', 'contacts_service.xcframework', 'FBLPromises.xcframework', 
+  'firebase_auth.xcframework', 'firebase_core.xcframework', 'FirebaseAuth.xcframework', 
+  'FirebaseCore.xcframework', 'FirebaseCoreInternal.xcframework', 'FirebaseFirestore.xcframework', 
+  'flutter_keyboard_visibility.xcframework', 'flutter_ringtone_player.xcframework', 'FlutterPluginRegistrant.xcframework', 
+  'fluttertoast.xcframework', 'FMDB.xcframework', 'geolocator_apple.xcframework', 'google_maps_flutter_ios.xcframework',
+   'grpc.xcframework', 'grpcpp.xcframework', 'GTMSessionFetcher.xcframework', 'image_picker_ios.xcframework',
+    'leveldb.xcframework', 'location.xcframework', 'nanopb.xcframework', 'openssl_grpc.xcframework', 'path_provider_foundation.xcframework',
+     'permission_handler_apple.xcframework', 'shared_preferences_foundation.xcframework', 'sqflite.xcframework', 'stringee_flutter_plugin.xcframework',
+      'Toast.xcframework', 'url_launcher_ios.xcframework', 'uv.xcframework','flutter_ringtone_player.xcframework']
 
 end

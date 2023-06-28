@@ -38,7 +38,7 @@ SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 LICENSE
   }
   s.author                = { 'TienDV' => 'vantien2905@gmail.com' }
-  s.source                = { :http => "https://github.com/vantien2905/aharide/raw/main/aharide_vfe34_4.zip?access_token=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" }
+  s.source                = { :http => "https://github.com/vantien2905/aharide/raw/main/aharide_vfe34_4.zip" }
 
   s.documentation_url     = 'https://flutter.dev/docs'
   s.platform              = :ios, '11.0'
